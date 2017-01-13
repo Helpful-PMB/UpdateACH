@@ -2,7 +2,7 @@
 
 This software updates all the Company Name and Company ID fields in the batch records of a properly formatted ACH file.
 
-### Getting Starting
+### Getting Started
 
 **Download**
 
