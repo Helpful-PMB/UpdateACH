@@ -24,9 +24,9 @@ Compile.bat
 
 Usage: 
 
-<pre>
+```
 UpdateACH.exe <Source File> <New Company ID> <New Company Name> [<Destination File>]
-</pre>
+```
 
 ### License
 
