@@ -1,6 +1,6 @@
 ### Software
 
-This software updates the Company Name and Company ID batch records in a properly formatted ACH file.
+This software updates all the Company Name and Company ID fields in the batch records of a properly formatted ACH file.
 
 ### Getting Starting
 
@@ -12,7 +12,7 @@ The software is available as a [zip download](https://github.com/Helpful-PMB/Upd
 git clone https://github.com/Helpful-PMB/UpdateACH.git
 </pre>
 
-**Compiling the software***
+**Compiling the software**
 
 To compile the software, execute the *Compile.bat* script.
 
