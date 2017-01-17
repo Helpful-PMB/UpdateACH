@@ -30,7 +30,7 @@ UpdateACH.exe <Source File> <New Company ID> <New Company Name> [<Destination Fi
 
 ### License
 
-MOSA is licensed under the [New BSD License](http://en.wikipedia.org/wiki/New_BSD).
+This software is licensed under the [New BSD License](http://en.wikipedia.org/wiki/New_BSD).
 
 Copyright (c) 2016
 All rights reserved.
