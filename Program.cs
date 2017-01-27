@@ -37,10 +37,19 @@ namespace UpdateACH
 
 				foreach (var line in lines)
 				{
-					if (line[0] == '5')
-						newlines.Add(line.Substring(0, 4) + companyname + line.Substring(20, 20) + companyid + line.Substring(50, 44));
-					else
-						newlines.Add(line);
+					var newline = line;
+
+					switch (newline[0])
+					{
+						case '5':
+							newline = line.Substring(0, 4) + companyname + line.Substring(20, 20) + companyid + line.Substring(50, 44); break;
+						case '8':
+							newline = line.Substring(0, 44) + companyid + line.Substring(54, 40); break;
+						default:
+							break;
+					}
+
+					newlines.Add(newline);
 				}
 
 				File.WriteAllLines(dest, newlines);
