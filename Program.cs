@@ -49,6 +49,8 @@ namespace UpdateACH
 							break;
 					}
 
+					newline = newline + "\r";
+
 					newlines.Add(newline);
 				}
 
